@@ -1,16 +1,27 @@
 <html>
+    <!-- promt the user to enter the weight of their baggae-->
     <head>
         <script>
-            let doIt= () =>{
+            let doIt= () =>
+            {
                 inputText=document.getElementById("userInput").value;
                 alert(inputText);
-
-
+                if(inputText>15)
+                {
+                    alert(overweight);
+                }
+                else
+                {
+                    alert("perfect weight");
+                }
             }
+
+
+            
             </script>
     </head>
     <body>
-        <input type="text" id="userInput">
+        <input type="number" id="userInput">
         <button onclick="doIt()">Press Me</button>
     
     </body>
