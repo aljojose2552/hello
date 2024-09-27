@@ -3,7 +3,9 @@ a=3;
 b=5;
 n=1000;
 
-<script>
+
+
+
 function calculateSum() 
         {
             let sum = 0;
@@ -15,4 +17,3 @@ function calculateSum()
                 }
             }
         }
-</script>
