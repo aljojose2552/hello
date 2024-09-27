@@ -15,3 +15,4 @@ let sum = 0;
                 }
             }
         }
+alert("sum")
