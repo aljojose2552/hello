@@ -15,4 +15,4 @@ let sum = 0;
                 }
             }
         }
-alert("sum")
+alert("sum of all multiple" + sum);
