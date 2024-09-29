@@ -3,7 +3,8 @@ alert("loaded euler JS");
 let b=5;
 let n=1000; */
 
-function calculate() {
+function calculate()
+ {
     // Get user inputs
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
@@ -11,9 +12,11 @@ function calculate() {
     let sum = 0;
 
     // Loop through numbers below n
-    for (let i = 0; i < n; i++) {
-        if (i % a === 0 || i % b === 0) {
-            sum += i;
+    for (let i = 0; i < n; i++) 
+        {
+        if (i % a === 0 || i % b === 0) 
+            {
+            sum = sum + i;
         }
     }
 
