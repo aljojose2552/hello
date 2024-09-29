@@ -12,7 +12,7 @@ function calculate()
     let sum = 0;
 
     // Loop through numbers below n
-    for (let i = 0; i < n; i++) 
+    for (let i = 1; i < n; i++) 
         {
         if (i % a === 0 || i % b === 0) 
             {
