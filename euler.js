@@ -14,16 +14,17 @@ let sum = 0;
                 {
                     sum += i;
                 }
-                alert("the sum is" +sum)
+                return sum;
             }
 }
 function calculate()
 {
-    const a = document.getElementById('a').value 
-    const n = document.getElementById('n').value 
-    const b = document.getElementById('b').value 
+    const a = parseInt(document.getElementById('a').value);
+    const n = parseInt(document.getElementById('n').value); 
+    const b = parseInt(document.getElementById('b').value);
 
-    let result = sumofmultiple(a,b,n)
+    const result = sumofmultiple(a,b,n)
 
-    alert("the answer" +result)
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+ 
 }
