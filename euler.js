@@ -3,9 +3,10 @@ let a=3;
 let b=5;
 let n=1000;
 
-let sum = 0;
+function sumofmultiple(a,b,n)
+{
 
-        {
+let sum = 0;   
            
             for (let i = 0; i < 1000; i++)
              {
@@ -13,6 +14,16 @@ let sum = 0;
                 {
                     sum += i;
                 }
+                return sum
             }
-        }
-alert("sum of all multiple" + sum);
+}
+function calculate()
+{
+    const a = document.getElementById('a').value 
+    const n = document.getElementById('n').value 
+    const b = document.getElementById('b').value 
+
+    let result = sumofmultiple(a,b,n)
+
+    alert("the answer" +result)
+}
