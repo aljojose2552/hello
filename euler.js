@@ -10,11 +10,11 @@ let sum = 0;
            
             for (let i = 0; i < 1000; i++)
              {
-                if (a%3 == 0 || b%5 == 0) 
+                if (i%3 == 0 || i%5 == 0) 
                 {
                     sum += i;
                 }
-                return sum
+                alert("the sum is" +sum)
             }
 }
 function calculate()
