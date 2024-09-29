@@ -1,30 +1,22 @@
 alert("loaded euler JS");
-let a=3;
+/*let a=3;
 let b=5;
-let n=1000;
+let n=1000; */
 
-function sumofmultiple(a,b,n)
-{
+function calculate() {
+    // Get user inputs
+    let a = parseInt(document.getElementById("a").value);
+    let b = parseInt(document.getElementById("b").value);
+    let n = parseInt(document.getElementById("n").value);
+    let sum = 0;
 
-let sum = 0;   
-           
-            for (let i = 0; i < n; i++)
-             {
-                if (i%3 == 0 || i%5 == 0) 
-                {
-                    sum += i;
-                }
-                return sum;
-            }
-}
-function calculate()
-{
-    const a = parseInt(document.getElementById('a').value);
-    const n = parseInt(document.getElementById('n').value); 
-    const b = parseInt(document.getElementById('b').value);
+    // Loop through numbers below n
+    for (let i = 0; i < n; i++) {
+        if (i % a === 0 || i % b === 0) {
+            sum += i;
+        }
+    }
 
-    const result = sumofmultiple(a,b,n)
-
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + result);
- 
+    // Show the result
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
