@@ -7,7 +7,9 @@ function calculateSum() {
             sum += i;
         }
     }
+    alert(`The sum of multiples of ${a} or ${b} below ${n} is: ${sum}`);
     return sum;
+    
 }
 
 
@@ -23,10 +25,10 @@ function GetValues(event) {
         return;
     }
 
-    let sum = calculateSum();
+ /*   let sum = calculateSum();
     alert(`The sum of multiples of ${a} or ${b} below ${n} is: ${sum}`);
-
-    // Hide inputs after calculation
+*/
+    
     document.getElementById('a').style.display = "none";
     document.getElementById('b').style.display = "none";
     document.getElementById('n').style.display = "none";
