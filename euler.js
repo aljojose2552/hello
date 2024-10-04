@@ -21,3 +21,18 @@ function calculate()
 
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
+function GetValues()
+{
+    a = document.getElementById("a").value;
+    b = document.getElementById("b").value;
+    n = document.getElementById("n").value;
+    document.getElementById("a").style.display="none";
+    document.getElementById("b").style.display="none";
+    document.getElementById("n").style.display="none";
+    document.getElementById("sum").style.display="none";
+    document.getElementById("a").style.display="none";
+    document.getElementById("b").style.display="none";
+    document.getElementById("n").style.display="none";
+    sum(a,b,n);
+    
+}
