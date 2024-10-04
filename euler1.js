@@ -1,12 +1,6 @@
-let calculate= ()=>
-{
-    let a = parseInt(document.getElementById('a').value);
-    let b = parseInt(document.getElementById('b').value);
-    let n = parseInt(document.getElementById('n').value);
-    calculateSum(a,b,n);
-}
 
-function calculate() {
+
+function calculate(a,b,n) {
    
     let sum = 0;
     for (let i = 1; i < n; i++) {
