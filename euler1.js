@@ -7,7 +7,7 @@ function calculateSum() {
             sum += i;
         }
     }
-    document.getElementById('result').textContent = The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum};
+    document.getElementById('sum').textContent = The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum};
 
     alert(The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum});
     return sum;
