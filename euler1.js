@@ -25,6 +25,7 @@ function GetValues(event) {
 
     let sum = calculateSum(a, b, n);
     document.getElementById('result').innerHTML = `Sum of multiples of ${a} or ${b} below ${n} is: ${sum}`;
+    alert('Sum of multiples of ${a} or ${b} below ${n} is: ${sum}');
 
     // Hide inputs after calculation
     document.getElementById('a').style.display = "none";
