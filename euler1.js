@@ -6,7 +6,7 @@ function calculateSum() {
         if (i % a === 0 || i % b === 0) {
             sum += i;
         }
-        document.getElementById('result').textContent = 'The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}';
+       // document.getElementById('result').textContent = 'The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}';
 
         alert("The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}");
     }
