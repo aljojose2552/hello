@@ -7,11 +7,7 @@ function calculateSum() {
             sum += i;
         }
     }
-    document.getElementById('sum').textContent = The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum};
-
-    alert(The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum});
-    return sum;
-    
+    return sum;   
 }
 
 
@@ -22,14 +18,11 @@ function GetValues(event) {
     let b = parseInt(document.getElementById('b').value);
     let n = parseInt(document.getElementById('n').value);
 
-    if (isNaN(a) || isNaN(b) || isNaN(n)) {
-        alert("Please enter valid numbers.");
-        return;
-    }
+   
 
- /*   let sum = calculateSum();
+   let sum = calculateSum();
     alert(`The sum of multiples of ${a} or ${b} below ${n} is: ${sum}`);
-*/
+
     
     document.getElementById('a').style.display = "none";
     document.getElementById('b').style.display = "none";
