@@ -1,6 +1,6 @@
 alert("loaded euler JS");
 
-function calculateSum(a, b, n) {
+function calculateSum() {
     let sum = 0;
     for (let i = 1; i < n; i++) {
         if (i % a === 0 || i % b === 0) {
@@ -23,9 +23,8 @@ function GetValues(event) {
         return;
     }
 
-    let sum = calculateSum(a, b, n);
+    let sum = calculateSum();
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
-}
 
     // Hide inputs after calculation
     document.getElementById('a').style.display = "none";
@@ -34,6 +33,7 @@ function GetValues(event) {
 }
 
 function Show() {
+
     document.getElementById('a').style.display = "block";
     document.getElementById('b').style.display = "block";
     document.getElementById('n').style.display = "block";
