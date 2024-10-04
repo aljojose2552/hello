@@ -6,7 +6,7 @@ let calculate= ()=>
     calculateSum(a,b,n);
 }
 
-function calculateSum(a,b,n) {
+function calculate() {
    
     let sum = 0;
     for (let i = 1; i < n; i++) {
