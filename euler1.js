@@ -6,6 +6,9 @@ function calculateSum() {
         if (i % a === 0 || i % b === 0) {
             sum += i;
         }
+        document.getElementById('result').textContent = 'The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}';
+
+        alert('The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}');
     }
     return sum;   
 }
@@ -20,9 +23,9 @@ function GetValues(event) {
 
    
 
-   let sum = calculateSum();
+ /*  let sum = calculateSum();
     alert(`The sum of multiples of ${a} or ${b} below ${n} is: ${sum}`);
-
+*/
     
     document.getElementById('a').style.display = "none";
     document.getElementById('b').style.display = "none";
