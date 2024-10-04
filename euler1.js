@@ -1,7 +1,7 @@
-alert("loaded euler JS");
+
 
 function calculateSum() {
-    alert("stfcuacm");
+   
     let sum = 0;
     for (let i = 1; i < n; i++) {
         if (i % a === 0 || i % b === 0) {
@@ -9,8 +9,8 @@ function calculateSum() {
         }
        // document.getElementById('result').textContent = 'The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}';
 
-        //alert("The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}");
-        alert("vysfaghoij");
+        alert("The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}");
+      
     }
     return sum;   
 }
