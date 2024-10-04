@@ -19,6 +19,7 @@ function calculate()
         }
     }
 
+
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
 function GetValues()

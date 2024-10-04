@@ -18,11 +18,14 @@ function GetValues(event) {
     let b = parseInt(document.getElementById('b').value);
     let n = parseInt(document.getElementById('n').value);
 
-  
-    let sum = calculateSum(a, b, n);
-   
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    if (isNaN(a) || isNaN(b) || isNaN(n)) {
+        alert("Please enter valid numbers.");
+        return;
+    }
 
+    let sum = calculateSum(a, b, n);
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+}
 
     // Hide inputs after calculation
     document.getElementById('a').style.display = "none";
