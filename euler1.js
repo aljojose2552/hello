@@ -20,7 +20,7 @@ function GetValues(event) {
 
   
     let sum = calculateSum(a, b, n);
-    document.getElementById('sum').textContent = 'The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum';
+   
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 
 
