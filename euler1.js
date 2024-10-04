@@ -7,7 +7,9 @@ function calculateSum() {
             sum += i;
         }
     }
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    document.getElementById('result').textContent = The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum};
+
+    alert(The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum});
     return sum;
     
 }
