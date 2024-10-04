@@ -1,6 +1,7 @@
 
 
 function calculate(a,b,n) {
+    console.log("tfsdgasd",a)
    
     let sum = 0;
     for (let i = 1; i < n; i++) {
@@ -11,7 +12,7 @@ function calculate(a,b,n) {
 
       
     }
-      alert(`The sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}`);
+      alert(`he sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}`);
       
     return sum;   
 }
