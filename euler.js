@@ -32,7 +32,7 @@ function GetValues() {
     let sum = calculate();
     document.getElementById("result").innerHTML = "The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum;
 
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    alert("The sum  " + sum);
     
 }
 function Show() {
