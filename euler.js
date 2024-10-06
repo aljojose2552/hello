@@ -14,9 +14,6 @@ function calculate()
             sum = sum + i;
         }
     }
-    document.getElementById("result").innerHTML = "The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum;
-
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 
   //  alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
@@ -33,6 +30,9 @@ function GetValues() {
     document.getElementById("n").style.display = "none";
     
     let sum = calculate();
+    document.getElementById("result").innerHTML = "The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum;
+
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
     
 }
 function Show() {
