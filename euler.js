@@ -14,9 +14,11 @@ function calculate()
             sum = sum + i;
         }
     }
-
+    document.getElementById("result").innerHTML = "The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum;
 
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+
+  //  alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
 function GetValues() {
     let a = parseInt(document.getElementById("a").value);
