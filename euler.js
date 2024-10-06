@@ -5,10 +5,6 @@ let n=1000; */
 
 function calculate()
  {
-  
-    let a = parseInt(document.getElementById("a").value);
-    let b = parseInt(document.getElementById("b").value);
-    let n = parseInt(document.getElementById("n").value);
     let sum = 0;
 
     for (let i = 1; i < n; i++) 
@@ -22,28 +18,23 @@ function calculate()
 
     alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
 }
-function GetValues()
-{
-    a = document.getElementById("a").value;
-    b = document.getElementById("b").value;
-    n = document.getElementById("n").value;
-    document.getElementById("a").style.display="none";
-    document.getElementById("b").style.display="none";
-    document.getElementById("n").style.display="none";
-    document.getElementById("sum").style.display="none";
-    document.getElementById("a").style.display="none";
-    document.getElementById("b").style.display="none";
-    document.getElementById("n").style.display="none";
-    sum(a,b,n);
+function GetValues() {
+    let a = parseInt(document.getElementById("a").value);
+    let b = parseInt(document.getElementById("b").value);
+    let n = parseInt(document.getElementById("n").value);
+
+   
+
+    // Hide the input fields and button after submission
+    document.getElementById("a").style.display = "none";
+    document.getElementById("b").style.display = "none";
+    document.getElementById("n").style.display = "none";
+    
+    let sum = calculate();
     
 }
-function Show()
-{
-    document.getElementById("a").style.display="block";
-    document.getElementById("b").style.display="block";
-    document.getElementById("n").style.display="block";
-    document.getElementById("sum").style.display="block";
-    document.getElementById("a").style.display="block";
-    document.getElementById("b").style.display="block";
-    document.getElementById("n").style.display="block";
+function Show() {
+    document.getElementById("a").style.display = "block";
+    document.getElementById("b").style.display = "block";
+    document.getElementById("n").style.display = "block";
 }
