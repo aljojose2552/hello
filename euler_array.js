@@ -16,6 +16,4 @@ function calculateSum() {
 
     // Display the result
     document.getElementById('result').innerHTML = `The sum of multiples of ${a} or ${b} in the list is: ${totalSum}`;
-    alert(`he sum of multiples of numbers ${a} or ${b} below ${n} is: ${sum}`);
-      
 }
