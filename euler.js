@@ -5,7 +5,7 @@ let n=1000; */
 
 function calculate()
  {
-    let sum = 0;
+    sum = 0;
 
     for (let i = 1; i < n; i++) 
         {
