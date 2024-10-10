@@ -3,10 +3,10 @@ alert("loaded euler JS");
 let b=5;
 let n=1000; */
 
-function calculate(n)
+function calculate(a,b,n)
  {
     sum = 0;
-    for (let i = 1; i < n; i++) 
+    for (let i = 1; i <= n; i++) 
     {
         if (i % a === 0 || i % b === 0) 
             {
@@ -18,10 +18,9 @@ function calculate(n)
 function GetValues() {
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
-    let n = parseInt(document.getElementById("n").value);
-    alert(n);  
-    let sum = calculate(n);
-    //alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    let n = parseInt(document.getElementById("n").value); 
+    let sum = calculate(a,b,n);
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
     HideValues();
 }
 function HideValues(){
