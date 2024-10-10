@@ -19,9 +19,9 @@ function GetValues() {
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let n = parseInt(document.getElementById("n").value);
-//alert(a);  
+    alert(n);  
     let sum = calculate(n);
-    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    //alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
     HideValues();
 }
 function HideValues(){
