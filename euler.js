@@ -13,25 +13,28 @@ function calculate()
             {
             sum = sum + i;
         }
+    return sum;
     }
 
-  //alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+  
 }
 function GetValues() {
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let n = parseInt(document.getElementById("n").value);
-alert(a);
+//alert(a);
    
-
-    // Hide the input fields and button after submission
-    document.getElementById("a").style.display = "none";
-    document.getElementById("b").style.display = "none";
-    document.getElementById("n").style.display = "none";
-    
     let sum = calculate();
-  
-    
+    alert("The sum of multiples of " + a + " or " + b + " below " + n + " is: " + sum);
+    HideValues();
+}
+function HideValues(){
+
+ // Hide the input fields and button after submission
+ document.getElementById("a").style.display = "none";
+ document.getElementById("b").style.display = "none";
+ document.getElementById("n").style.display = "none";
+
 }
 function Show() {
     document.getElementById("a").style.display = "block";
