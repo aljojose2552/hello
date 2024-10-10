@@ -21,7 +21,7 @@ function GetValues() {
     let a = parseInt(document.getElementById("a").value);
     let b = parseInt(document.getElementById("b").value);
     let n = parseInt(document.getElementById("n").value);
-
+alert(a);
    
 
     // Hide the input fields and button after submission
