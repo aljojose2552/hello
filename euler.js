@@ -13,10 +13,8 @@ function calculate()
             {
             sum = sum + i;
         }
-    return sum;
     }
-
-  
+    return sum;
 }
 function GetValues() {
     let a = parseInt(document.getElementById("a").value);
