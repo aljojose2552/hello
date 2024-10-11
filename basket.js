@@ -18,4 +18,4 @@ let Basket = (basket,prices)=>{
             }
             basket = {milk:1,Beaf:1,bread:1};
             price = {apple:1.99,orange:1.05,grapes:1.80,bread:1.09,milk:2.09,Beaf:4.88};
-            alert(Basket(basket,price));
+            alert(`total amount of product is` Basket(basket,price));
